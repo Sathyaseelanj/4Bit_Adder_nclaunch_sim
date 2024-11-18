@@ -1,5 +1,3 @@
-# Name : SATHYASEELAN J
-# Reg No : 212222060233
 # EXP1: 4 Bit Adder functionality verification
 
 ## Aim:
