@@ -67,8 +67,6 @@ Developed by: Register Number*/
 	tcsh (Invokes C-Shell) 
 
 	source /cadence/install/cshrc (mention the path of the tools) 
-
-      (The path of cshrc could vary depending on the installation destination)
       
 	After this you can see the window like below 
 ![sathya](https://github.com/Sathyaseelanj/4Bit_Adder_nclaunch_sim/blob/main/Screenshot%20(46).png)
@@ -80,17 +78,8 @@ Developed by: Register Number*/
 ```bash
 •	linux:/> nclaunch -new& // “-new” option is used for invoking NCVERILOG for the first time for any design
 ```
-
-or
-```bash
-
-•	linux:/> nclaunch& // On subsequent calls to NCVERILOG
-```
-
 	It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
 ![sathya](https://github.com/Sathyaseelanj/4Bit_Adder_nclaunch_sim/blob/main/Screenshot%20(47).png)
-
-
 
 ### Fig 4:Setting Multi-step simulation
 
@@ -99,7 +88,6 @@ or
 	Click the cds.lib file and save the file by clicking on Save option 
 
 ![sathya](https://github.com/Sathyaseelanj/4Bit_Adder_nclaunch_sim/blob/main/Screenshot%20(48).png)
-
 
 
 ### Fig 5:cds.lib file Creation
@@ -114,6 +102,7 @@ or
 
 ![sathya](https://github.com/user-attachments/assets/781b297a-11e9-4140-89c5-ee3b0d15bbd4)
 
+
 ### Fig 6: Selection of Don’t include any libraries
 
 	A ‘NCLaunch window’ appears as shown in figure below 
@@ -124,11 +113,9 @@ or
 
 	To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation. 
 
-
-
 ### Fig 7: Nclaunch Window
-![sathya](https://github.com/Sathyaseelanj/4Bit_Adder_nclaunch_sim/blob/main/Screenshot%20(26).png)
 
+![sathya](https://github.com/Sathyaseelanj/4Bit_Adder_nclaunch_sim/blob/main/Screenshot%20(26).png)
 
 
 ## Step 1: Compilation:– Process to check the correct Verilog language syntax and usage 
@@ -199,22 +186,8 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 ### Fig 12: Simulation Waveform Window
 ![sathya](https://github.com/Sathyaseelanj/4Bit_Adder_nclaunch_sim/blob/main/Screenshot%20(52).png)
 
+
 ### Result:
 
 The functionality of a 4-bit adder was successfully verified using a test bench and simulated with the nclaunch tool.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
