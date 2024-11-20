@@ -127,7 +127,7 @@ or
 
 
 ### Fig 7: Nclaunch Window
-![sathya](https://github.com/Sathyaseelanj/4Bit_Adder_nclaunch_sim/blob/main/Screenshot%20(49).png)
+![sathya](https://github.com/Sathyaseelanj/4Bit_Adder_nclaunch_sim/blob/main/Screenshot%20(26).png)
 
 
 
@@ -155,7 +155,7 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 	Select the test bench and compile it. It will come under worklib. Under Worklib you can see the module and test-bench. 
 
 	The cds.lib file is an ASCII text file. It defines which libraries are accessible and where they are located. It contains statements that map logical library names to their physical directory paths. For this Design, you will define a library called “worklib”
-![sathya](https://github.com/Sathyaseelanj/4Bit_Adder_nclaunch_sim/blob/main/Screenshot%20(50).png)
+![sathya](https://github.com/Sathyaseelanj/4Bit_Adder_nclaunch_sim/blob/main/Screenshot%20(29).png)
 
 
 ## Step 2: Elaboration:– To check the port connections in hierarchical design 
@@ -174,7 +174,7 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 	After elaboration the file will come under snapshot. Select the test bench and elaborate it.
 
 ### Fig 9: Elaboration Launch Option
-![sathya](https://github.com/Sathyaseelanj/4Bit_Adder_nclaunch_sim/blob/main/Screenshot%20(29).png)
+![sathya](https://github.com/Sathyaseelanj/4Bit_Adder_nclaunch_sim/blob/main/Screenshot%20(49).png)
 
 
 
@@ -191,7 +191,6 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 ### Fig 10: Design Browser window for simulation
 
 ![sathya](https://github.com/Sathyaseelanj/4Bit_Adder_nclaunch_sim/blob/main/Screenshot%20(50).png)
-
 
 ### Fig 11: Launching Simulation Waveform WindowSimulation Waveform Window
 
